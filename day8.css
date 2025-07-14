@@ -1,0 +1,46 @@
+
+#Raj{
+    color: rgb(255, 255, 255);
+}
+
+header {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;}
+
+ section {
+  margin: 40px 0;}
+
+ .about, .skills, .projects, .contact {
+  max-width: 800px;
+  margin: auto;}
+
+.skills ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects .project-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;}
+
+.contact button {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;}
